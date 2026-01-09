@@ -39,8 +39,6 @@ nav {
 .logo {
     width: 42px;
     height: 42px;
-    background: var(--accent);
-    border-radius: 10px;
 }
 
 /* NAV LINKS */
@@ -70,8 +68,8 @@ nav {
 }
 
 #header {
-    font-size: 56px;
-    font-weight: 700;
+    font-size: 70px;
+    font-weight: 1000;
     color: var(--accent);
     margin-bottom: 16px;
     letter-spacing: 0.5px;
@@ -141,23 +139,6 @@ button:hover {
     color: var(--text-light);
 }
 
-/* SOCIALS */
-.socials-container {
-    padding: 40px 60px 20px;
-}
-
-.socials-container ul {
-    display: flex;
-    gap: 20px;
-    list-style: none;
-}
-
-.socials-container li {
-    width: 36px;
-    height: 36px;
-    background: #1e293b;
-    border-radius: 50%;
-}
 
 /* FOOTER */
 footer {
