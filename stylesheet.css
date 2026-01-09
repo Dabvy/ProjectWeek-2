@@ -1,1 +1,170 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', 'Segoe UI', Tahoma, sans-serif;
+}
 
+/* COLORS */
+:root {
+    --bg-dark: #0b0a2a;
+    --bg-dark-2: #0f1038;
+    --accent: #f28c38;
+    --text-light: #cbd5e1;
+    --text-muted: #94a3b8;
+    --pill: #1e293b;
+}
+
+/* BODY */
+body {
+    background: linear-gradient(180deg, var(--bg-dark), var(--bg-dark-2));
+    color: var(--text-light);
+    min-height: 100vh;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* NAVBAR */
+nav {
+    padding: 20px 60px;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 42px;
+    height: 42px;
+    background: var(--accent);
+    border-radius: 10px;
+}
+
+/* NAV LINKS */
+#nav-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+#nav-links a {
+    color: var(--text-muted);
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    transition: color 0.2s ease;
+}
+
+#nav-links a:hover {
+    color: #ffffff;
+}
+
+/* HERO TEXT */
+.text-container {
+    padding: 90px 60px 30px;
+    max-width: 800px;
+}
+
+#header {
+    font-size: 56px;
+    font-weight: 700;
+    color: var(--accent);
+    margin-bottom: 16px;
+    letter-spacing: 0.5px;
+}
+
+#subHeader {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.6;
+    color: var(--text-muted);
+}
+
+/* BUTTONS */
+.buttons-container {
+    padding: 20px 60px 70px;
+    display: flex;
+    gap: 16px;
+}
+
+button {
+    border: none;
+    padding: 12px 28px;
+    border-radius: 999px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+button:hover {
+    transform: translateY(-2px);
+    opacity: 0.9;
+}
+
+.readMore-container {
+    background: #1e293b;
+    color: #ffffff;
+}
+
+.boeken-container {
+    background: var(--accent);
+    color: #1a1a1a;
+}
+
+/* OPENING TIMES */
+.openTime-container {
+    padding: 40px 60px;
+    max-width: 600px;
+}
+
+#openTime {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #bcd0ff;
+}
+
+#time {
+    background: var(--pill);
+    border-radius: 999px;
+    padding: 12px 20px;
+    margin-bottom: 12px;
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    color: var(--text-light);
+}
+
+/* SOCIALS */
+.socials-container {
+    padding: 40px 60px 20px;
+}
+
+.socials-container ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.socials-container li {
+    width: 36px;
+    height: 36px;
+    background: #1e293b;
+    border-radius: 50%;
+}
+
+/* FOOTER */
+footer {
+    padding: 20px 60px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    font-weight: 400;
+    color: var(--text-muted);
+}
