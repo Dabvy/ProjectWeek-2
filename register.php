@@ -34,16 +34,32 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 ?>
 
 <!DOCTYPE html>
-<html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | Bibliotheek Zoetermeer</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+</head>
 <body>
-<h2>Register</h2>
-<form method="POST">
-    <input type="text" name="username" placeholder="Username"><br><br>
+    <nav>
+        <div class="nav-container">
+            <a href="main.php"><img src="images/logoBIB.png" alt="logo" class="logo"></a>
+            <ul id="nav-links">
+            </ul>
+        </div>
+    </nav>
+
+
+<div class="form-container">
+<form method="POST" class="login-form">
+    <input type="text" name="username" placeholder="Gebruikersnaam"><br><br>
     <input type="email" name="email" placeholder="Email"><br><br>
     <input type="password" name="password" placeholder="Password"><br><br>
     <button type="submit">Register</button>
+    <a class="register-link" href="login.php">Heb je al een account? Log in hier</a>
 </form>
-<p><?= $message ?></p>
-<a href="login.php">Login</a>
+</div>
 </body>
 </html>

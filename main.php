@@ -1,6 +1,7 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
-
-
 <html lang="nl">
 
 <head>
@@ -14,8 +15,16 @@
 <body>
     <nav>
         <div class="nav-container">
-            <a href="main.html"><img src="images/logoBIB.png" alt="logo" class="logo"></a>
+            <a href="main.php"><img src="images/logoBIB.png" alt="logo" class="logo"></a>
             <ul id="nav-links">
+
+                <?php if (!isset($_SESSION["user_id"])): ?>
+                    <a href="login.php">Log in</a>
+                <?php else: ?>
+                    <span>Welkom, <?php echo htmlspecialchars($_SESSION["username"]); ?></span>
+                    <a href="logout.php">Log out</a>
+                <?php endif; ?>
+
             </ul>
         </div>
     </nav>
@@ -28,11 +37,14 @@
         </p>
     </div>
 
-
     <div class="buttons-container">
-        <a class="readMore-container" href="main.html">LEES MEER</a>
-        <a class="boeken-container" href="books.html">BOEKEN</a>
-        <a class="boeken-container" href="bookQuiz.html">BOEKEN QUIZ</a>
+        <a class="readMore-container" href="main.php">LEES MEER</a>
+        <a class="boeken-container" href="books.php">BOEKEN</a>
+
+        <?php if (isset($_SESSION["user_id"])): ?>
+            <a class="boeken-container" href="bookQuiz.php">BOEKEN QUIZ</a>
+        <?php endif; ?>
+
     </div>
 
     <div class="openTime-container">
@@ -42,13 +54,11 @@
         <p id="time">Wijkbibliotheek Rokkeveen 08:00 - 20:00</p>
     </div>
 
-
     <footer>
         <p>Stadhuisplein 1, 2711 EC Zoetermeer</p>
         <p>079 343 8200</p>
-        </p>
     </footer>
 
     <script src="javascript.js"></script>
 </body>
-
+</html>

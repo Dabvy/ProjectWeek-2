@@ -134,3 +134,10 @@ function showResult() {
 }
 
 showQuestion();
+
+function hideText() {
+    const textElement = document.getElementById("myText");
+    if (textElement) {
+        textElement.style.display = "none";
+    }
+}
