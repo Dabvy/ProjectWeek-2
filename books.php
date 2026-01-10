@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-</html>
+
 <html lang="nl">
 
 <head>
@@ -30,19 +30,8 @@
 
     <div class="buttons-container">
         <a class="readMore-container" href="main.html">LEES MEER</a>
-        <a class="boeken-container" href="books.html">BOEKEN</a>
+        <a class="boeken-container" href="bookQuiz.html">BOEKEN QUIZ</a>
     </div>
 
-    <div>
-        <h1 class="openTime-container" id="openTime">Boeken Quiz</h1>
-        <p id="subHeader" class="text-container"> Vind het boek die bij jou het best past <br>
-            door deze quiz in te vullen.
-        </p>
-        <div id="quiz"></div>
-    </div>
-
-
-    <script src="script.js"></script>
 </body>
 
-</html>

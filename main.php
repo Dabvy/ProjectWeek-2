@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-</html>
+
 <html lang="nl">
 
 <head>
@@ -28,11 +28,27 @@
         </p>
     </div>
 
+
     <div class="buttons-container">
         <a class="readMore-container" href="main.html">LEES MEER</a>
+        <a class="boeken-container" href="books.html">BOEKEN</a>
         <a class="boeken-container" href="bookQuiz.html">BOEKEN QUIZ</a>
     </div>
 
+    <div class="openTime-container">
+        <h1 id="openTime">Openingstijden</h1>
+        <p id="time">Forum Zoetermeer 08:00 - 20:00</p>
+        <p id="time">Wijkbibliotheek Oosterheem 08:00 - 20:00</p>
+        <p id="time">Wijkbibliotheek Rokkeveen 08:00 - 20:00</p>
+    </div>
+
+
+    <footer>
+        <p>Stadhuisplein 1, 2711 EC Zoetermeer</p>
+        <p>079 343 8200</p>
+        </p>
+    </footer>
+
+    <script src="javascript.js"></script>
 </body>
 
-</html>
