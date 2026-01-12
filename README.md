@@ -153,3 +153,8 @@ Leeslijst maken (“Wil ik nog lezen”)
 Reviews of sterren geven (alleen jongeren) 
 
 Chat of hulpknop (“Ik weet niet wat ik moet lezen”) 
+
+
+https://trello.com/invite/b/6964b78db737807a53b14277/ATTI3abc92d2f55a72d7fe8d803702cd011cC6B8F33E/projectweek-2
+
+
