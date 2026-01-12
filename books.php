@@ -30,7 +30,6 @@
 
     <div class="buttons-container">
         <a class="readMore-container" href="main.php">LEES MEER</a>
-        <a class="boeken-container" href="bookQuiz.php">BOEKEN QUIZ</a>
     </div>
 
 </body>
