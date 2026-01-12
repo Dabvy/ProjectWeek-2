@@ -4,7 +4,6 @@ const books = [
     { title: "1984", genre: "dystopia", length: "medium", age: "adult" },
     { title: "Animal Farm", genre: "dystopia", length: "short", age: "young" },
     { title: "De Alchemist", genre: "philosophy", length: "short", age: "adult" },
-    { title: "Het Achterhuis", genre: "history", length: "medium", age: "adult" },
     { title: "The Hunger Games", genre: "dystopia", length: "long", age: "young" },
     { title: "Divergent", genre: "dystopia", length: "long", age: "young" },
     { title: "De Griezelbus", genre: "horror", length: "short", age: "young" },
@@ -23,7 +22,6 @@ const books = [
     { title: "De Brief voor de Koning", genre: "adventure", length: "medium", age: "young" },
     { title: "The Maze Runner", genre: "dystopia", length: "long", age: "young" },
     { title: "Het Gouden Ei", genre: "crime", length: "short", age: "adult" },
-    { title: "Kruistocht in Spijkerbroek", genre: "history", length: "medium", age: "young" }
 ];
 
 
@@ -57,33 +55,6 @@ const questions = [
             D: "Weet ik niet"
         },
         value: { age: ["young", "adult"] }
-    },
-    {
-        question: "Wil je iets realistisch?",
-        answers: {
-            A: "Ja",
-            B: "Nee",
-            C: "Beetje",
-            D: "Maakt niet uit"
-        }
-    },
-    {
-        question: "Hou je van spanning?",
-        answers: {
-            A: "Heel erg",
-            B: "Een beetje",
-            C: "Nee",
-            D: "Soms"
-        }
-    },
-    {
-        question: "Lees je vaak?",
-        answers: {
-            A: "Elke dag",
-            B: "Soms",
-            C: "Zelden",
-            D: "Nooit"
-        }
     }
 ];
 
