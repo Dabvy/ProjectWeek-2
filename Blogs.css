@@ -1,0 +1,133 @@
+style {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background-color: antiquewhite;
+}
+
+header {
+    background-color: #090719;
+    padding: 30px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    word-spacing: 15px;
+    text-decoration: none;
+    border: none; 
+}
+
+article {
+    flex: 3;
+    padding: 20px;
+    background-color: #0F0C2A;
+    color: white;
+    white-space: pre-line;
+    text-decoration: none;
+}
+
+aside {
+    flex: 1;
+    background-color: #0F0C2A;
+    padding: 20px;
+    color: white;
+}
+
+footer {
+    background-color: #090719;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+main {
+    display: flex;
+    gap: 5px;
+    flex: 1;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+button {
+  padding: 5px 10px;
+  font-size: 18px;
+  background-color: #090719;
+  border-radius: 10px;
+  border: none;
+  transition: background-color 0.3s ease, transform 0.3s ease, opacity 0.3s ease;
+  opacity: 0.8;
+}
+
+.button-link {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  color: #677F9C;
+}
+
+h1{
+    color: #E57938;
+}
+
+h3{
+    color: #677F9C;
+}
+
+.btn {
+  padding: 12px 24px;
+  border-radius: 999px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: #E57938;
+  color: #677F9C;
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.btn-secondary {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+  background-color: #40506D;
+  color: #677F9C;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  text-decoration: none;
+  color: inherit;
+}
+
+button:hover {
+  background-color: #E57938;
+  transform: scale(1.05);
+  opacity: 1;
+}
+
+img{
+    width: 300px;
+    height: 300px;
+}
