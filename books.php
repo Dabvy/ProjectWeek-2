@@ -28,8 +28,13 @@
         </p>
     </div>
 
-<div class="books">
-    <div class="image-grid">
+<div class="white-stripe"></div>
+    <div class="text-container">
+
+    </div>
+
+<div class="row">
+    <div class="column">
       <img src="images/animalFarm.jpg" class="product-image">
 
       <h3 class="product-title">Animal Farm</h3>
@@ -40,7 +45,7 @@
       </div>
     </div>
 
-    <div class="image-grid">
+    <div class="column">
       <img src="images/theAlchemist.jpg" class="product-image">
 
       <h3 class="product-title">The Alchemist</h3>
@@ -51,7 +56,7 @@
       </div>
     </div>
 
-    <div class="image-grid">
+    <div class="column">
       <img src="images/deBriefVoorDeKoning.jpg" class="product-image">
 
       <h3 class="product-title">De brief voor de koning</h3>
@@ -62,7 +67,7 @@
       </div>
     </div>
 
-    <div class="image-grid">
+    <div class="column">
       <img src="images/divergent.jpg" class="product-image">
 
       <h3 class="product-title">Divergent</h3>
@@ -73,7 +78,7 @@
       </div>
     </div>
 
-    <div class="image-grid">
+    <div class="column">
       <img src="images/dracula.jpg" class="product-image">
 
       <h3 class="product-title">Dracula</h3>
@@ -84,7 +89,7 @@
       </div>
     </div>
 
-    <div class="image-grid">
+    <div class="column">
       <img src="images/theDaVinciCode.jpg" class="product-image">
 
       <h3 class="product-title">The Da Vinci code</h3>
@@ -95,7 +100,7 @@
       </div>
     </div>
 
-    <div class="image-grid">
+    <div class="column">
       <img src="images/theFaultInOurStars.jpg" class="product-image">
 
       <h3 class="product-title">The fault in our stars</h3>
@@ -106,7 +111,7 @@
       </div>
     </div>
 
-    <div class="image-grid">
+    <div class="column">
       <img src="images/deGriezelbus.jpg" class="product-image">
 
       <h3 class="product-title">De Griezelbus</h3>
@@ -117,7 +122,7 @@
       </div>
     </div>
 
-    <div class="image-grid">
+    <div class="column">
       <img src="images/hetGoudenEi.jpg" class="product-image">
 
       <h3 class="product-title">Het Gouden ei</h3>
@@ -128,7 +133,7 @@
       </div>
     </div>
 
-    <div class="image-grid">
+    <div class="column">
       <img src="images/harryPotter.jpg" class="product-image">
 
       <h3 class="product-title">Harry Potter</h3>
@@ -139,7 +144,7 @@
       </div>
     </div>
 
-    <div class="image-grid">
+    <div class="column">
       <img src="images/deHobbit.jpg" class="product-image">
 
       <h3 class="product-title">De Hobbit</h3>
@@ -150,18 +155,18 @@
       </div>
     </div>
 
-    <div class="image-grid">
+    <div class="column">
       <img src="images/theHungerGames.jpg" class="product-image">
 
       <h3 class="product-title">The Hunger games</h3>
       <p class="product-description">Kleine description</p>
 
-      <div class="product-body">
+    <div class="product-body">
         <button class="info-btn">Meer informatie</button>
       </div>
     </div>
 
-    <div class="image-grid">
+    <div class="column">
       <img src="images/itBook.jpg" class="product-image">
 
       <h3 class="product-title">IT</h3>
@@ -172,7 +177,7 @@
       </div>
     </div>
 
-    <div class="image-grid">
+    <div class="column">
       <img src="images/theLordOfTheRings.jpg" class="product-image">
 
       <h3 class="product-title">The Lord of the Rings</h3>
@@ -183,7 +188,7 @@
       </div>
     </div>
 
-    <div class="image-grid">
+    <div class="column">
       <img src="images/theMazeRunner.jpg" class="product-image">
 
       <h3 class="product-title">The Maze Runner</h3>
@@ -194,7 +199,7 @@
       </div>
     </div>
 
-    <div class="image-grid">
+    <div class="column">
       <img src="images/mobyDick.jpg" class="product-image">
 
       <h3 class="product-title">Moby Dick</h3>
@@ -205,7 +210,7 @@
       </div>
     </div>
 
-    <div class="image-grid">
+    <div class="column">
       <img src="images/prideAndPrejudice.jpg" class="product-image">
 
       <h3 class="product-title">Pride and Prejudice</h3>
@@ -216,7 +221,7 @@
       </div>
     </div>
 
-    <div class="image-grid">
+    <div class="column">
       <img src="images/percyJackson.jpg" class="product-image">
 
       <h3 class="product-title">Percy Jackson</h3>
@@ -227,7 +232,7 @@
       </div>
     </div>
 
-    <div class="image-grid">
+    <div class="column">
       <img src="images/robinsonCrusoe.jpg" class="product-image">
 
       <h3 class="product-title">Robinson Crusoe</h3>
@@ -238,7 +243,7 @@
       </div>
     </div>
 
-    <div class="image-grid">
+    <div class="column">
       <img src="images/sherlockHolmes.jpg" class="product-image">
 
       <h3 class="product-title">Sherlock Holmes</h3>
@@ -249,7 +254,7 @@
       </div>
     </div>
 
-    <div class="image-grid">
+    <div class="column">
       <img src="images/theShining.jpg" class="product-image">
 
       <h3 class="product-title">The Shining</h3>
