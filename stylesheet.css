@@ -69,7 +69,7 @@ nav {
 
 /* HERO TEXT */
 .text-container {
-    padding: 40px 60px 30px;
+    padding: 40px 60px 0px;
     max-width: 800px;
 }
 
@@ -211,4 +211,58 @@ footer {
     font-weight: 800;
     color: var(--accent);
     margin-top: 10px;
+}
+
+.form-container {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 30px;
+    background: rgba(30, 41, 59, 0.65);
+    border-radius: 10px;
+}
+
+/* Input styling */
+.login-form input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 2px solid #f28c38;
+    border-radius: 6px;
+    font-size: 16px;
+    background-color: #1e293b;
+    /* dark slate background */
+    color: #f4f4f4;
+    /* light text for contrast */
+}
+
+
+/* Button styling */
+.login-form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #f28c38;
+    ;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login-form button:hover {
+    background-color: #f28c38;
+}
+
+/* Register link */
+.register-link {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #bcd0ff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.register-link:hover {
+    text-decoration: underline;
 }

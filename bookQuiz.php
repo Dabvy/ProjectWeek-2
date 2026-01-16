@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 
-</html>
+
 <html lang="nl">
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"  content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bibliotheek Zoetermeer</title>
     <link rel="stylesheet" href="stylesheet.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
@@ -14,7 +14,7 @@
 <body>
     <nav>
         <div class="nav-container">
-            <a href="main.html"><img src="images/logoBIB.png" alt="logo" class="logo"></a>
+            <a href="main.php"><img src="images/logoBIB.png" alt="logo" class="logo"></a>
             <ul id="nav-links">
             </ul>
         </div>
@@ -28,27 +28,20 @@
         </p>
     </div>
 
-
     <div class="buttons-container">
-        <a class="readMore-container">LEES MEER</a>
-        <a class="boeken-container" href="bookQuiz.html">BOEKEN</a>
+        <a class="readMore-container" href="main.php">LEES MEER</a>
+        <a class="boeken-container" href="books.php">BOEKEN</a>
     </div>
 
-    <div class="openTime-container">
-        <h1 id="openTime">Openingstijden</h1>
-        <p id="time">Forum Zoetermeer 08:00 - 20:00</p>
-        <p id="time">Wijkbibliotheek Oosterheem 08:00 - 20:00</p>
-        <p id="time">Wijkbibliotheek Rokkeveen 08:00 - 20:00</p>
-    </div>
-
-
-    <footer>
-        <p>Stadhuisplein 1, 2711 EC Zoetermeer</p>
-        <p>079 343 8200</p>
+    <div>
+        <h1 class="openTime-container" id="openTime">Boeken Quiz</h1>
+        <p id="subHeader" class="text-container"> Vind het boek die bij jou het best past <br>
+            door deze quiz in te vullen.
         </p>
-    </footer>
+        <div id="quiz"></div>
+    </div>
 
-    <script src="javascript.js"></script>
+
+    <script src="script.js"></script>
 </body>
 
-</html>

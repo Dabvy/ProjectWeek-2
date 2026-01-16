@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-</html>
+
 <html lang="nl">
 
 <head>
@@ -14,7 +14,7 @@
 <body>
     <nav>
         <div class="nav-container">
-            <a href="main.html"><img src="images/logoBIB.png" alt="logo" class="logo"></a>
+            <a href="main.php"><img src="images/logoBIB.png" alt="logo" class="logo"></a>
             <ul id="nav-links">
             </ul>
         </div>
@@ -28,13 +28,10 @@
         </p>
     </div>
 
-    <div>
-        <h1 class="openTime-container" id="openTime">Boeken Quiz</h1>
-        <div id="quiz"></div>
+    <div class="buttons-container">
+        <a class="readMore-container" href="main.php">LEES MEER</a>
+        <a class="boeken-container" href="bookQuiz.php">BOEKEN QUIZ</a>
     </div>
 
-
-    <script src="script.js"></script>
 </body>
 
-</html>
