@@ -111,7 +111,9 @@
     omringd door een gevaarlijk doolhof. 
     Samen met andere jongeren probeert hij te overleven en het geheim van het doolhof te ontrafelen.
     </p>
+    <a href="beschikbaarheid.php">
       <button>Bekijk Beschikbaarheid</button>
+    </a>
     </div>
   </div>
 

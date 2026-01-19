@@ -112,7 +112,9 @@
     ontmoet uiteindelijk een vriend genaamd Vrijdag, 
     en leert omgaan met eenzaamheid en zelfredzaamheid.
     </p>
+    <a href="beschikbaarheid.php">
       <button>Bekijk Beschikbaarheid</button>
+    </a>
     </div>
   </div>
 

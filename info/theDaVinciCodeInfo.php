@@ -112,7 +112,9 @@
     Samen met cryptologe Sophie Neveu volgt hij puzzels en codes die leiden naar een eeuwenoud geheim over het Christendom en de Heilige Graal.
       </p>
 
+    <a href="beschikbaarheid.php">
       <button>Bekijk Beschikbaarheid</button>
+    </a>
     </div>
   </div>
 

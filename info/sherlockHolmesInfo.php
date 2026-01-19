@@ -111,7 +111,9 @@
     observatie en deductie. 
     De verhalen laten zien hoe zijn intelligentie en scherpzinnigheid hem helpen mysteries te ontrafelen.
     </p>
+    <a href="beschikbaarheid.php">
       <button>Bekijk Beschikbaarheid</button>
+    </a>
     </div>
   </div>
 

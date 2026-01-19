@@ -111,7 +111,9 @@
     Het hotel blijkt bovennatuurlijke krachten te hebben, 
     waardoor Jack langzaam gek wordt en zijn familie in gevaar brengt.
     </p>
+    <a href="beschikbaarheid.php">
       <button>Bekijk Beschikbaarheid</button>
+    </a>
     </div>
   </div>
 

@@ -111,7 +111,9 @@
     Samen beleven ze liefde, vriendschap en verdriet terwijl ze nadenken over het leven en hun toekomst.
       </p>
 
+    <a href="beschikbaarheid.php">
       <button>Bekijk Beschikbaarheid</button>
+    </a>
     </div>
   </div>
 

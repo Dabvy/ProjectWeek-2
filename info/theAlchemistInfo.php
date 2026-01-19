@@ -113,7 +113,9 @@
     maar ook zelfkennis en het volgen van je dromen.
       </p>
 
+    <a href="beschikbaarheid.php">
       <button>Bekijk Beschikbaarheid</button>
+    </a>
     </div>
   </div>
 

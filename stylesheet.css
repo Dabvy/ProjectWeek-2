@@ -126,6 +126,7 @@ button:hover {
 .openTime-container {
     padding: 40px 60px;
     max-width: 600px;
+    white-space: pre-line;
 }
 
 #openTime {

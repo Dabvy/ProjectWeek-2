@@ -112,7 +112,9 @@
     Lucy en een groep vrienden probeert Harker Dracula te stoppen voordat hij nog meer slachtoffers maakt.
       </p>
 
+    <a href="beschikbaarheid.php">
       <button>Bekijk Beschikbaarheid</button>
+    </a>
     </div>
   </div>
 

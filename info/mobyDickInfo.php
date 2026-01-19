@@ -110,7 +110,9 @@
     Kapitein Ahab is geobsedeerd door de witte walvis Moby Dick en gaat met zijn bemanning op jacht. 
     Het verhaal volgt hun gevaarlijke reis en de gevolgen van Ahab's wraakzucht.
     </p>
+    <a href="beschikbaarheid.php">
       <button>Bekijk Beschikbaarheid</button>
+    </a>
     </div>
   </div>
 

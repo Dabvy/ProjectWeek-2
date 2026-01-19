@@ -112,7 +112,9 @@
     Ze moet leren zichzelf en haar keuzes te beschermen terwijl ze een complot ontdekt dat haar samenleving bedreigt.
       </p>
 
+    <a href="beschikbaarheid.php">
       <button>Bekijk Beschikbaarheid</button>
+    </a>
     </div>
   </div>
 

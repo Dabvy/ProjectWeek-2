@@ -112,7 +112,9 @@
     wat leidt tot een spannend en angstaanjagend einde.
       </p>
 
+    <a href="beschikbaarheid.php">
       <button>Bekijk Beschikbaarheid</button>
+    </a>
     </div>
   </div>
 

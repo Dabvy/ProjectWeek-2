@@ -112,7 +112,9 @@
     Onderweg ontdekt hij moed, slimheid en vindt hij een magisch ringetje dat later een grote rol speelt.
       </p>
 
+    <a href="beschikbaarheid.php">
       <button>Bekijk Beschikbaarheid</button>
+    </a>
     </div>
   </div>
 

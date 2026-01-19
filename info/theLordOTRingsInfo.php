@@ -111,7 +111,9 @@
     een magisch voorwerp dat grote macht geeft aan de duistere Sauron. 
     Samen met vrienden gaat hij op een gevaarlijke reis om Midden-aarde te redden van ondergang.
     </p>
+    <a href="beschikbaarheid.php">
       <button>Bekijk Beschikbaarheid</button>
+    </a>
     </div>
   </div>
 

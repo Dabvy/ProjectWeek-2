@@ -110,7 +110,9 @@
     Percy Jackson ontdekt dat hij een halfbloed (zoon van een god) is en gaat op avontuur om de gestolen bliksemschicht van Zeus terug te vinden. 
     Onderweg ontmoet hij vrienden en strijdt hij tegen mythische wezens.
     </p>
+    <a href="beschikbaarheid.php">
       <button>Bekijk Beschikbaarheid</button>
+    </a>
     </div>
   </div>
 

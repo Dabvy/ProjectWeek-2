@@ -112,7 +112,9 @@
     leert magie en ontdekt een geheim over de mysterieuze Steen der Wijzen die iemand enorme macht kan geven.
       </p>
 
+    <a href="beschikbaarheid.php">
       <button>Bekijk Beschikbaarheid</button>
+    </a>
     </div>
   </div>
 

@@ -111,7 +111,10 @@
     bovennatuurlijke entiteit die de gedaante van hun grootste angsten aanneemt, 
     vooral als de clown Pennywise. Jaren later komen ze als volwassenen terug om de demon opnieuw te bestrijden.
     </p>
+    
+    <a href="beschikbaarheid.php">
       <button>Bekijk Beschikbaarheid</button>
+    </a>
     </div>
   </div>
 

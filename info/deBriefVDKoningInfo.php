@@ -112,8 +112,9 @@
     Tijdens zijn gevaarlijke reis ontmoet hij vrienden en vijanden, leert moed en trouw, 
     en ontdekt hij dat dapperheid en verantwoordelijkheid belangrijker zijn dan leeftijd of rang.
       </p>
-
+    <a href="beschikbaarheid.php">
       <button>Bekijk Beschikbaarheid</button>
+    </a>
     </div>
   </div>
 

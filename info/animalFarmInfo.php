@@ -113,8 +113,9 @@
     Uiteindelijk worden de dieren net zo onderdrukt als eerst, 
     en laat het boek zien hoe idealen kunnen worden verraden door corruptie en machtsmisbruik.
       </p>
-
+    <a href="../beschikbaarheid.php">
       <button>Bekijk Beschikbaarheid</button>
+    </a>
     </div>
   </div>
 

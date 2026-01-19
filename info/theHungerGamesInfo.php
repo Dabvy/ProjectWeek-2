@@ -110,7 +110,9 @@
     Katniss Everdeen doet mee aan de dodelijke Hunger Games om haar zus te beschermen. 
     Ze vecht om te overleven in een wrede competitie en wordt symbool van verzet tegen het regime van Panem.
     </p>
+    <a href="beschikbaarheid.php">
       <button>Bekijk Beschikbaarheid</button>
+    </a>
     </div>
   </div>
 

@@ -111,7 +111,9 @@
     vooral met de trotse heer Darcy. 
     Het verhaal laat zien hoe misverstanden en sociale verwachtingen echte liefde kunnen beïnvloeden.
     </p>
+    <a href="beschikbaarheid.php">
       <button>Bekijk Beschikbaarheid</button>
+    </a>
     </div>
   </div>
 

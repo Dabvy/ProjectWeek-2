@@ -111,8 +111,10 @@
     waarin vreemde en enge dingen gebeuren. 
     Ze beleven spannende en griezelige avonturen en moeten soms gevaarlijke situaties oplossen.
       </p>
-
+      
+    <a href="beschikbaarheid.php">
       <button>Bekijk Beschikbaarheid</button>
+    </a>
     </div>
   </div>
 
