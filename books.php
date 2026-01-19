@@ -41,7 +41,9 @@
       <p class="product-description">Kleine description</p>
 
       <div class="product-body">
+      <a href="info/animalFarmInfo.php">
         <button class="info-btn">Meer informatie</button>
+        </a>
       </div>
     </div>
 
@@ -52,7 +54,9 @@
       <p class="product-description">Kleine description</p>
 
       <div class="product-body">
+        <a href="info/theAlchemistInfo.php">
         <button class="info-btn">Meer informatie</button>
+        </a>
       </div>
     </div>
 
@@ -63,7 +67,9 @@
       <p class="product-description">Kleine description</p>
 
       <div class="product-body">
+        <a href="info/deBriefVDKoningInfo.php">
         <button class="info-btn">Meer informatie</button>
+        </a>
       </div>
     </div>
 
@@ -74,7 +80,9 @@
       <p class="product-description">Kleine description</p>
 
       <div class="product-body">
+        <a href="info/divergentInfo.php">
         <button class="info-btn">Meer informatie</button>
+        </a>
       </div>
     </div>
 
@@ -85,7 +93,9 @@
       <p class="product-description">Kleine description</p>
 
       <div class="product-body">
+        <a href="info/draculaInfo.php">
         <button class="info-btn">Meer informatie</button>
+        </a>
       </div>
     </div>
 
@@ -96,7 +106,9 @@
       <p class="product-description">Kleine description</p>
 
       <div class="product-body">
+        <a href="info/theDaVinciCodeInfo.php">
         <button class="info-btn">Meer informatie</button>
+        </a>
       </div>
     </div>
 
@@ -107,7 +119,9 @@
       <p class="product-description">Kleine description</p>
 
       <div class="product-body">
+        <a href="info/theFaultinourStarsInfo.php">
         <button class="info-btn">Meer informatie</button>
+        </a>
       </div>
     </div>
 
@@ -118,7 +132,9 @@
       <p class="product-description">Kleine description</p>
 
       <div class="product-body">
+        <a href="info/deGriezelBusInfo.php">
         <button class="info-btn">Meer informatie</button>
+        </a>
       </div>
     </div>
 
@@ -129,7 +145,9 @@
       <p class="product-description">Kleine description</p>
 
       <div class="product-body">
+        <a href="info/hetGoudenEiInfo.php">
         <button class="info-btn">Meer informatie</button>
+        </a>
       </div>
     </div>
 
@@ -140,7 +158,9 @@
       <p class="product-description">Kleine description</p>
 
       <div class="product-body">
+        <a href="info/harryPotterInfo.php">
         <button class="info-btn">Meer informatie</button>
+        </a>
       </div>
     </div>
 
@@ -151,7 +171,9 @@
       <p class="product-description">Kleine description</p>
 
       <div class="product-body">
+        <a href="info/deHobbitInfo.php">
         <button class="info-btn">Meer informatie</button>
+        </a>
       </div>
     </div>
 
@@ -162,7 +184,9 @@
       <p class="product-description">Kleine description</p>
 
     <div class="product-body">
+      <a href="info/theHungerGamesInfo.php">
         <button class="info-btn">Meer informatie</button>
+        </a>
       </div>
     </div>
 
@@ -173,7 +197,9 @@
       <p class="product-description">Kleine description</p>
 
       <div class="product-body">
+        <a href="info/itInfo.php">
         <button class="info-btn">Meer informatie</button>
+        </a>
       </div>
     </div>
 
@@ -184,7 +210,9 @@
       <p class="product-description">Kleine description</p>
 
       <div class="product-body">
+        <a href="info/theLordOTRingsInfo.php">
         <button class="info-btn">Meer informatie</button>
+        </a>
       </div>
     </div>
 
@@ -195,7 +223,9 @@
       <p class="product-description">Kleine description</p>
 
       <div class="product-body">
+        <a href="info/theMazeRunnerInfo.php">
         <button class="info-btn">Meer informatie</button>
+        </a>
       </div>
     </div>
 
@@ -206,7 +236,9 @@
       <p class="product-description">Kleine description</p>
 
       <div class="product-body">
+        <a href="info/mobyDickInfo.php">
         <button class="info-btn">Meer informatie</button>
+        </a>
       </div>
     </div>
 
@@ -217,7 +249,9 @@
       <p class="product-description">Kleine description</p>
 
       <div class="product-body">
+        <a href="info/prideAndPrejudiceInfo.php">
         <button class="info-btn">Meer informatie</button>
+        </a>
       </div>
     </div>
 
@@ -228,7 +262,9 @@
       <p class="product-description">Kleine description</p>
 
       <div class="product-body">
+        <a href="info/percyJacksonInfo.php">
         <button class="info-btn">Meer informatie</button>
+        </a>
       </div>
     </div>
 
@@ -239,7 +275,9 @@
       <p class="product-description">Kleine description</p>
 
       <div class="product-body">
+        <a href="info/robinsonCrusoeInfo.php">
         <button class="info-btn">Meer informatie</button>
+        </a>
       </div>
     </div>
 
@@ -250,7 +288,9 @@
       <p class="product-description">Kleine description</p>
 
       <div class="product-body">
+        <a href="info/sherlockHolmesInfo.php">
         <button class="info-btn">Meer informatie</button>
+        </a>
       </div>
     </div>
 
@@ -261,6 +301,7 @@
       <p class="product-description">Kleine description</p>
 
       <div class="product-body">
+        <a href="info/theShiningInfo.php">
         <button class="info-btn">Meer informatie</button>
       </div>
     </div>
