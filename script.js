@@ -24,40 +24,23 @@ const books = [
     { title: "Het Gouden Ei", genre: "crime", length: "short", age: "adult" },
 ];
 
-
 const questions = [
     {
         question: "Hoe lang lees je graag?",
-        answers: {
-            A: "Kort",
-            B: "Gemiddeld",
-            C: "Lang",
-            D: "Maakt niet uit"
-        },
-        value: { length: ["short", "medium", "long"] }
+        answers: { A: "Kort", B: "Gemiddeld", C: "Lang", D: "Maakt niet uit" },
+        value: { length: ["short", "medium", "long", null] }
     },
     {
         question: "Welk genre kies je het liefst?",
-        answers: {
-            A: "Fantasy",
-            B: "Horror",
-            C: "Romantiek",
-            D: "Misdaad"
-        },
+        answers: { A: "Fantasy", B: "Horror", C: "Romantiek", D: "Misdaad" },
         value: { genre: ["fantasy", "horror", "romance", "crime"] }
     },
     {
         question: "Voor welke leeftijd?",
-        answers: {
-            A: "Jongeren",
-            B: "Volwassenen",
-            C: "Beide",
-            D: "Weet ik niet"
-        },
-        value: { age: ["young", "adult"] }
+        answers: { A: "Jongeren", B: "Volwassenen", C: "Beide", D: "Weet ik niet" },
+        value: { age: ["young", "adult", null, null] }
     }
 ];
-
 
 let currentQuestion = 0;
 let preferences = {};
@@ -71,20 +54,36 @@ function showQuestion() {
     for (let key in q.answers) {
         const btn = document.createElement("button");
         btn.textContent = `${key}: ${q.answers[key]}`;
-        btn.onclick = () => nextQuestion(key);
+        btn.onclick = () => checkAnswer(key);
         quizDiv.appendChild(btn);
     }
 }
 
-function nextQuestion(answer) {
-    // eenvoudige voorkeur opslaan
-    if (questions[currentQuestion].value) {
-        const values = Object.values(questions[currentQuestion].value)[0];
-        preferences[currentQuestion] = values[Object.keys(questions[currentQuestion].answers).indexOf(answer)];
+function checkAnswer(answer) {
+    const q = questions[currentQuestion];
+    const values = Object.values(q.value)[0];
+    const choice = values[Object.keys(q.answers).indexOf(answer)];
+
+    // Store preference
+    preferences[currentQuestion] = choice;
+
+    // Find current recommended book based on choices so far
+    const currentResult = books.find(book =>
+        (!preferences[0] || book.length === preferences[0]) &&
+        (!preferences[1] || book.genre === preferences[1]) &&
+        (!preferences[2] || book.age === preferences[2])
+    );
+
+    // Log answer and current recommendation
+    console.log(`Vraag ${currentQuestion + 1} gekozen: ${answer} (${choice})`);
+    if (currentResult) {
+        console.log(`Huidig aanbevolen boek: ${currentResult.title}`);
+    } else {
+        console.log("Geen passend boek gevonden op dit moment.");
     }
 
+    // Go to next question
     currentQuestion++;
-
     if (currentQuestion < questions.length) {
         showQuestion();
     } else {
@@ -100,10 +99,11 @@ function showResult() {
     );
 
     quizDiv.innerHTML = result
-        ? `<h2> Aanbevolen boek:</h2><p>${result.title}</p>`
+        ? `<h2>Aanbevolen boek:</h2><p>${result.title}</p>`
         : `<h2>Geen passend boek gevonden.</h2>`;
 }
 
+// Start quiz
 showQuestion();
 
 function hideText() {
