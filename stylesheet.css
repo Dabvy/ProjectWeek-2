@@ -269,8 +269,8 @@ footer {
 }
 
 .product-image {
-  width: 250px;
-  height: 350px;
+    width: 250px;
+    height: 350px;
 }
 
 .column {
@@ -282,14 +282,14 @@ footer {
     flex: 0 0 35%;
 }
 
-.row::after{
+.row::after {
     content: "";
     clear: both;
     display: flex;
     justify-content: center;
 }
 
-.info-btn{
+.info-btn {
     border: none;
     padding: 12px 28px;
     border-radius: 999px;
@@ -314,5 +314,5 @@ footer {
     width: 50%;
     height: 1px;
     background-color: #87A1BD;
-    margin: 0 auto; 
+    margin: 0 auto;
 }
