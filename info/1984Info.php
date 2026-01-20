@@ -101,24 +101,28 @@
 
   <div class="container">
     <div class="product-image">
-        <img src="../images/prideAndPrejudice.jpg" width="350px" height="500px">
+        <img src="../images/1984Book.jpg" width="350px" height="500px">
     </div>
 
     <div class="product-info">
-      <h1>Pride and Prejudidce</h1>
+      <h1>1984</h1>
       <p class="description">
-    Elizabeth Bennet leert over liefde, trots en vooroordelen terwijl ze relaties onderzoekt in haar familiekring, 
-    vooral met de trotse heer Darcy. 
-    Het verhaal laat zien hoe misverstanden en sociale verwachtingen echte liefde kunnen beïnvloeden.
-    </p>
-    <a href="beschikbaarheid.php">
+    1984 van George Orwell is een dystopische roman over een totalitaire staat waarin alles en iedereen voortdurend wordt gecontroleerd door Big Brother. 
+    De hoofdpersoon, Winston Smith, werkt bij het Ministerie van Waarheid, 
+    waar hij het verleden vervalst om het regime gelijk te geven. 
+    Hij begint te twijfelen aan het systeem en wordt verliefd op Julia, 
+    met wie hij in het geheim in opstand komt tegen de partij. 
+    Uiteindelijk worden ze verraden en zwaar gemarteld, 
+    totdat Winston volledig wordt gebroken en het regime accepteert. 
+    Het boek waarschuwt voor de gevaren van extreme macht, 
+    propaganda en het verlies van vrijheid en individualiteit.
+    <a href="../beschikbaarheid.php">
       <button>Bekijk Beschikbaarheid</button>
     </a>
     </div>
-        <div class="rating">
-          ★★★★☆ <span style="color: #f0f0f0f0; font-size: 0.9rem;">(4.2 / 5)</span>
+    <div class="rating">
+          ★★★★☆ <span style="color: #f0f0f0f0; font-size: 0.9rem;">(4.4 / 5)</span>
       </div>
-  </div>
   </div>
 
 </body>

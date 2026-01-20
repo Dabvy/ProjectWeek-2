@@ -101,7 +101,7 @@
     </nav>
 
     <div class="text-container">
-        <h1 id="header">Bibliotheek Forum</h1>
+        <h1 id="header">Beschikbaarheid</h1>
     </div>
 
   <div class="container">
@@ -109,49 +109,57 @@
 
     <div class="product-info">
     <p><h1>Boeken die beschikbaar zijn in het Forum:</h1>
+  <h5>elk boek dat niet beschikbaar is wordt weer beschikbaar op 4 Februari</h5>
 
+    - Animal Farm (Uitgeleend) ❌
 
-    - Animal Farm (Uitgeleend)
+    - The Alchemist (beschikbaar) ✅
 
-    - The Alchemist (beschikbaar)
+    - De Brief voor de Koning (beschikbaar) ✅
 
-    - De Brief voor de Koning (beschikbaar)
+    - Divergent (beschikbaar) ✅
 
-    - Divergent (beschikbaar)
+    - Dracula (Uitgeleend) ❌
 
-    - Dracula (Uitgeleend)
+    - The Da Vinci Code (Uitgeleend) ❌
 
-    - The Da Vinci Code (Uitgeleend)
+    - The fault in our stars (beschikbaar) ✅
 
-    - The fault in our stars (beschikbaar)
+    - De Griezelbus (beschikbaar) ✅
 
-    - De Griezelbus (beschikbaar)
+    - Het Gouden Ei (Uitgeleend) ❌
 
-    - Het Gouden Ei (Uitgeleend)
+    - Harry Potter (beschikbaar) ✅
 
-    - Harry Potter (beschikbaar)
+    - De Hobbit (beschikbaar) ✅
 
-    - De Hobbit (beschikbaar)
+    - The Hunger Games (beschikbaar) ✅
 
-    - The Hunger Games (beschikbaar)
+    - IT (beschikbaar) ✅
 
-    - IT (beschikbaar)
+    - The Lord Of The Rings (Uitgeleend) ❌
 
-    - The Lord Of The Rings (Uitgeleend)
+    - The Maze Runner (Uitgeleend) ❌
 
-    - The Maze Runner (Uitgeleend)
+    - Moby Dick (beschikbaar) ✅
 
-    - Moby Dick (beschikbaar)
+    - Pride and Prejudice (Uitgeleend) ❌
 
-    - Pride and Prejudice (Uitgeleend)
+    - Percy Jackson (beschikbaar) ✅
 
-    - Percy Jackson (beschikbaar)
+    - Robinson Crusoe (Uitgeleend) ❌
 
-    - Robinson Crusoe (Uitgeleend)
+    - Sherlock Holmes (Uitgeleend) ❌
 
-    - Sherlock Holmes (Uitgeleend)
+    - The Shining (beschikbaar) ✅
 
-    - The Shining (beschikbaar)
+    - Twilight (beschikbaar) ✅
+
+    - Kruistocht in Spijkerbroek (beschikbaar) ✅
+
+    - 1984 (Uitgeleend) ❌
+
+    - Het Achterhuis (Uitgeleend) ❌
 
       </p>
     </div>

@@ -116,6 +116,10 @@
       <button>Bekijk Beschikbaarheid</button>
     </a>
     </div>
+        <div class="rating">
+          ★★★★☆ <span style="color: #f0f0f0f0; font-size: 0.9rem;">(3.7 / 5)</span>
+      </div>
+  </div>
   </div>
 
 </body>

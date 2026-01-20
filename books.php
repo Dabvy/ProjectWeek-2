@@ -8,15 +8,76 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bibliotheek Zoetermeer</title>
     <link rel="stylesheet" href="stylesheet.css">
+    <script src="script.js"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
-</head>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+<body class="min-h-screen bg-gray-100 p-6">
 
-<body>
+<div class="flex justify-end">
+<input
+id="searchInput"
+type="text"
+placeholder="Search a book and press Enter..."
+class="w-72 px-4 py-2 border rounded-xl shadow-sm focus:outline-none focus:ring"
+/>
+</div>
+
+
+<script>
+const bookPages = {
+  "the lord of the rings": "info/theLordOTRingsInfo.php",
+  "animal farm": "info/animalFarmInfo.php",
+  "de brief voor de koning": "info/deBriefVDKoningInfo.php",
+  "1984": "info/1984Info.php",
+  "de griezelbus": "info/deGriezelbusInfo.php",
+  "de hobbit": "info/deHobbitInfo.php",
+  "divergent": "info/divergentInfo.php",
+  "dracula": "info/draculaInfo.php",
+  "harry potter": "info/harryPotter.php",
+  "het gouden ei": "info/hetGoudenEiInfo.php",
+  "it": "info/itInfo.php",
+  "moby dick": "info/mobyDickInfo.php",
+  "percy jackson": "info/percyJacksonInfo.php",
+  "pride and prejudice": "info/prideAndPrejudiceInfo.php",
+  "robinson crusoe": "info/robinsonCrusoeInfo.php",
+  "sherlock holmes": "info/sherlockHolmes.php",
+  "the alchemist": "info/theAlchemistInfo.php",
+  "the da vinci code": "info/theDaVinciCodeInfo.php",
+  "the fault in our stars": "info/theFaultinourStarsInfo.php",
+  "the hunger games": "info/theHungerGamesInfo.php",
+  "the maze runner": "info/theMazeRunnerInfo.php",
+  "the shining": "info/theShiningInfo.php",
+  "het achterhuis": "info/hetAchterhuisInfo.php",
+  "twilight": "info/twilightInfo.php",
+  "kruistocht in spijkerbroek": "info/kruistochtInSpijkerbroekInfo.php"
+};
+
+const searchInput = document.getElementById("searchInput");
+
+searchInput.addEventListener("keydown", (event) => {
+  if (event.key === "Enter") {
+    const query = searchInput.value.toLowerCase().trim();
+
+    for (const key in bookPages) {
+      if (query.includes(key)) {
+        window.location.href = bookPages[key];
+        return;
+      }
+    }
+
+    alert("Book not found. Please try another title.");
+  }
+});
+</script>
+
     <nav>
         <div class="nav-container">
             <a href="main.php"><img src="images/logoBIB.png" alt="logo" class="logo"></a>
             <ul id="nav-links">
             </ul>
+            <ul id="results"></ul>
+          </div>
         </div>
     </nav>
 
@@ -48,6 +109,19 @@
     </div>
 
     <div class="column">
+      <img src="images/hetAchterhuis.jpg" class="product-image">
+
+      <h3 class="product-title">Het Achterhuis</h3>
+      <p class="product-description">Kleine description</p>
+
+      <div class="product-body">
+        <a href="info/hetAchterhuisInfo.php">
+        <button class="info-btn">Meer informatie</button>
+        </a>
+      </div>
+    </div>
+
+        <div class="column">
       <img src="images/theAlchemist.jpg" class="product-image">
 
       <h3 class="product-title">The Alchemist</h3>
@@ -230,6 +304,19 @@
     </div>
 
     <div class="column">
+      <img src="images/kruistochInSpijkerbroek.jpg" class="product-image">
+
+      <h3 class="product-title">Kruistocht in Spijkerbroek</h3>
+      <p class="product-description">Kleine description</p>
+
+      <div class="product-body">
+        <a href="info/kruistochtInSpijkerbroekInfo.php">
+        <button class="info-btn">Meer informatie</button>
+        </a>
+      </div>
+    </div>
+
+    <div class="column">
       <img src="images/mobyDick.jpg" class="product-image">
 
       <h3 class="product-title">Moby Dick</h3>
@@ -303,6 +390,33 @@
       <div class="product-body">
         <a href="info/theShiningInfo.php">
         <button class="info-btn">Meer informatie</button>
+        </a>
+      </div>
+    </div>
+
+        <div class="column">
+      <img src="images/twilight.jpg" class="product-image">
+
+      <h3 class="product-title">Twilight</h3>
+      <p class="product-description">Kleine description</p>
+
+      <div class="product-body">
+        <a href="info/twilightInfo.php">
+        <button class="info-btn">Meer informatie</button>
+        </a>
+      </div>
+    </div>
+
+        <div class="column">
+      <img src="images/1984Book.jpg" class="product-image">
+
+      <h3 class="product-title">1984</h3>
+      <p class="product-description">Kleine description</p>
+
+      <div class="product-body">
+        <a href="info/1984Info.php">
+        <button class="info-btn">Meer informatie</button>
+        </a>
       </div>
     </div>
 </div>

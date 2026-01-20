@@ -101,22 +101,23 @@
 
   <div class="container">
     <div class="product-image">
-        <img src="../images/prideAndPrejudice.jpg" width="350px" height="500px">
+        <img src="../images/twilight.jpg" width="350px" height="500px">
     </div>
 
     <div class="product-info">
-      <h1>Pride and Prejudidce</h1>
+      <h1>Twilight</h1>
       <p class="description">
-    Elizabeth Bennet leert over liefde, trots en vooroordelen terwijl ze relaties onderzoekt in haar familiekring, 
-    vooral met de trotse heer Darcy. 
-    Het verhaal laat zien hoe misverstanden en sociale verwachtingen echte liefde kunnen beïnvloeden.
-    </p>
-    <a href="beschikbaarheid.php">
+    Twilight gaat over de zeventienjarige Bella Swan, die naar het regenachtige stadje Forks verhuist om bij haar vader te wonen. 
+    Daar wordt ze verliefd op de mysterieuze Edward Cullen, die al snel een vampier blijkt te zijn. Ondanks het gevaar dat dit met zich meebrengt, groeit hun liefde. 
+    Bella raakt betrokken bij de wereld van vampiers en komt in levensgevaar door een vijandige vampier. 
+    Edward en zijn familie beschermen haar, en het verhaal draait om liefde, spanning en de keuze tussen een normaal leven en een gevaarlijke, 
+    bijzondere wereld.
+    <a href="../beschikbaarheid.php">
       <button>Bekijk Beschikbaarheid</button>
     </a>
     </div>
         <div class="rating">
-          ★★★★☆ <span style="color: #f0f0f0f0; font-size: 0.9rem;">(4.2 / 5)</span>
+          ★★★★☆ <span style="color: #f0f0f0f0; font-size: 0.9rem;">(3.8 / 5)</span>
       </div>
   </div>
   </div>

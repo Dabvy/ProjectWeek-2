@@ -101,22 +101,22 @@
 
   <div class="container">
     <div class="product-image">
-        <img src="../images/prideAndPrejudice.jpg" width="350px" height="500px">
+        <img src="../images/kruistochInSpijkerbroek.jpg" width="350px" height="500px">
     </div>
 
     <div class="product-info">
-      <h1>Pride and Prejudidce</h1>
+      <h1>Kruistocht in Spijkerbroek</h1>
       <p class="description">
-    Elizabeth Bennet leert over liefde, trots en vooroordelen terwijl ze relaties onderzoekt in haar familiekring, 
-    vooral met de trotse heer Darcy. 
-    Het verhaal laat zien hoe misverstanden en sociale verwachtingen echte liefde kunnen beïnvloeden.
-    </p>
-    <a href="beschikbaarheid.php">
+    Dolf belandt via een tijdmachine in 1212 tijdens de Kinderkruistocht. 
+    Hij helpt de kinderen, maar ziet hoe ze worden misleid en uitgebuit. 
+    Uiteindelijk keert hij terug naar zijn eigen tijd.
+      </p>
+    <a href="../beschikbaarheid.php">
       <button>Bekijk Beschikbaarheid</button>
     </a>
     </div>
         <div class="rating">
-          ★★★★☆ <span style="color: #f0f0f0f0; font-size: 0.9rem;">(4.2 / 5)</span>
+          ★★★★☆ <span style="color: #f0f0f0f0; font-size: 0.9rem;">(4 / 5)</span>
       </div>
   </div>
   </div>

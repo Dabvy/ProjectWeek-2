@@ -101,22 +101,26 @@
 
   <div class="container">
     <div class="product-image">
-        <img src="../images/prideAndPrejudice.jpg" width="350px" height="500px">
+        <img src="../images/hetAchterhuis.jpg" width="350px" height="500px">
     </div>
 
     <div class="product-info">
-      <h1>Pride and Prejudidce</h1>
+      <h1>Het Achterhuis</h1>
       <p class="description">
-    Elizabeth Bennet leert over liefde, trots en vooroordelen terwijl ze relaties onderzoekt in haar familiekring, 
-    vooral met de trotse heer Darcy. 
-    Het verhaal laat zien hoe misverstanden en sociale verwachtingen echte liefde kunnen beïnvloeden.
-    </p>
-    <a href="beschikbaarheid.php">
+    Het Achterhuis is het dagboek van Anne Frank. Het beschrijft hoe Anne, 
+    haar familie en vier anderen tijdens de Tweede Wereldoorlog ruim twee jaar ondergedoken zitten in een verborgen achterhuis in Amsterdam om te ontsnappen aan de nazi’s. 
+    Anne schrijft over het dagelijkse leven in de onderduik, de spanningen, ruzies, 
+    angsten en haar groei als persoon. 
+    Uiteindelijk worden de onderduikers verraden en gedeporteerd. 
+    Anne overlijdt in 1945 in het concentratiekamp Bergen-Belsen. 
+    Haar dagboek blijft een aangrijpend en persoonlijk verslag van de oorlog en de Jodenvervolging.
+      </p>
+    <a href="../beschikbaarheid.php">
       <button>Bekijk Beschikbaarheid</button>
     </a>
     </div>
         <div class="rating">
-          ★★★★☆ <span style="color: #f0f0f0f0; font-size: 0.9rem;">(4.2 / 5)</span>
+          ★★★★☆ <span style="color: #f0f0f0f0; font-size: 0.9rem;">(4.5 / 5)</span>
       </div>
   </div>
   </div>

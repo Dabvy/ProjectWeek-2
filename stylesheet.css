@@ -316,3 +316,18 @@ footer {
     background-color: #87A1BD;
     margin: 0 auto;
 }
+
+#searchblock{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#search {
+    text-align: center;
+}
+#results{
+    margin-right: 5%;
+}
+ 
+ 
