@@ -120,7 +120,7 @@
     </a>
     </div>
         <div class="rating">
-          ★★★★☆ <span style="color: #f0f0f0f0; font-size: 0.9rem;">(4.5 / 5)</span>
+          ★★★★☆ <span style="color: #f28c38; font-size: 0.9rem;">(4.5 / 5)</span>
       </div>
   </div>
   </div>
