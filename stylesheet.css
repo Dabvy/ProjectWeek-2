@@ -301,6 +301,7 @@ footer {
     background: #f28c38;
     text-transform: uppercase;
     margin: 5px;
+    color: black;
 }
 
 .row {
@@ -329,5 +330,3 @@ footer {
 #results{
     margin-right: 5%;
 }
- 
- 

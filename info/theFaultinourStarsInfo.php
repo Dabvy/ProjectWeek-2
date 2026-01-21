@@ -35,6 +35,7 @@
       gap: 30px;
       border-radius: 10px;
       box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      position: relative;
     }
 
     .product-image img {
@@ -84,6 +85,25 @@
     max-width: 800px;
     margin-bottom: 100px;
     }
+
+    .availability {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background: #f28c38;
+    color: black;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+
+  .rating {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 1.1rem;
+  color: #f28c38;
+}
   </style>
 </head>
 <body>
@@ -110,15 +130,12 @@
     Hazel, een tiener met kanker, ontmoet Augustus en wordt verliefd. 
     Samen beleven ze liefde, vriendschap en verdriet terwijl ze nadenken over het leven en hun toekomst.
       </p>
-
-    <a href="beschikbaarheid.php">
-      <button>Bekijk Beschikbaarheid</button>
-    </a>
     </div>
         <div class="rating">
           ★★★★☆ <span style="color: #f28c38; font-size: 0.9rem;">(4.1 / 5)</span>
       </div>
-  </div>
+      <div class="availability">
+      Beschikbaar
   </div>
 
 </body>

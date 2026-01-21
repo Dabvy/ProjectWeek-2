@@ -15,10 +15,7 @@
 <body class="min-h-screen bg-gray-100 p-6">
 
 <div class="flex justify-end">
-<input
-id="searchInput"
-type="text"
-placeholder="Search a book and press Enter..."
+<input id="searchInput" type="text" placeholder="Search a book and press Enter..."
 class="w-72 px-4 py-2 border rounded-xl shadow-sm focus:outline-none focus:ring"
 />
 </div>
@@ -55,18 +52,53 @@ const bookPages = {
 
 const searchInput = document.getElementById("searchInput");
 
+// 2 strings: A= bornstring. B= Doelstring
+function levenshtein(a, b) {
+  const matrix = Array.from({ length: b.length + 1 }, (_, i) => [i]);
+
+  for (let j = 0; j <= a.length; j++) {
+    matrix[0][j] = j;
+  }
+
+  // loopt door alle combinaties van letters van a en b
+  for (let i = 1; i <= b.length; i++) {
+    for (let j = 1; j <= a.length; j++) {
+      matrix[i][j] = b[i - 1] === a[j - 1]
+        ? matrix[i - 1][j - 1]
+        : Math.min(
+            matrix[i - 1][j - 1] + 1,
+            matrix[i][j - 1] + 1,
+            matrix[i - 1][j] + 1
+          );
+    }
+  }
+
+  return matrix[b.length][a.length];
+}
+
+// Luistert naar toetsaanslagen in de zoekbalk
 searchInput.addEventListener("keydown", (event) => {
-  if (event.key === "Enter") {
+  if (event.key === "Enter") { 
     const query = searchInput.value.toLowerCase().trim();
 
+    let bestMatch = null;
+    let smallestDistance = Infinity;
+
     for (const key in bookPages) {
-      if (query.includes(key)) {
-        window.location.href = bookPages[key];
-        return;
+      const distance = levenshtein(query, key);
+
+      if (distance < smallestDistance) {
+        smallestDistance = distance;
+        bestMatch = key;
       }
     }
 
-    alert("Book not found. Please try another title.");
+    // drempel: hoe lager, hoe strenger
+    if (smallestDistance <= 5 && bestMatch) {
+      window.location.href = bookPages[bestMatch];
+    } else {
+      alert("Book not found. Please try another title.");
+    }
   }
 });
 </script>
@@ -99,7 +131,7 @@ searchInput.addEventListener("keydown", (event) => {
       <img src="images/animalFarm.jpg" class="product-image">
 
       <h3 class="product-title">Animal Farm</h3>
-      <p class="product-description">Kleine description</p>
+      <p class="product-description">Genre: Dystopia</p>
 
       <div class="product-body">
       <a href="info/animalFarmInfo.php">
@@ -112,7 +144,7 @@ searchInput.addEventListener("keydown", (event) => {
       <img src="images/hetAchterhuis.jpg" class="product-image">
 
       <h3 class="product-title">Het Achterhuis</h3>
-      <p class="product-description">Kleine description</p>
+      <p class="product-description">Genre: History</p>
 
       <div class="product-body">
         <a href="info/hetAchterhuisInfo.php">
@@ -125,7 +157,7 @@ searchInput.addEventListener("keydown", (event) => {
       <img src="images/theAlchemist.jpg" class="product-image">
 
       <h3 class="product-title">The Alchemist</h3>
-      <p class="product-description">Kleine description</p>
+      <p class="product-description">Genre: Philosophy</p>
 
       <div class="product-body">
         <a href="info/theAlchemistInfo.php">
@@ -138,7 +170,7 @@ searchInput.addEventListener("keydown", (event) => {
       <img src="images/deBriefVoorDeKoning.jpg" class="product-image">
 
       <h3 class="product-title">De brief voor de koning</h3>
-      <p class="product-description">Kleine description</p>
+      <p class="product-description">Genre: Adventure</p>
 
       <div class="product-body">
         <a href="info/deBriefVDKoningInfo.php">
@@ -151,7 +183,7 @@ searchInput.addEventListener("keydown", (event) => {
       <img src="images/divergent.jpg" class="product-image">
 
       <h3 class="product-title">Divergent</h3>
-      <p class="product-description">Kleine description</p>
+      <p class="product-description">Genre: Dystophia</p>
 
       <div class="product-body">
         <a href="info/divergentInfo.php">
@@ -164,7 +196,7 @@ searchInput.addEventListener("keydown", (event) => {
       <img src="images/dracula.jpg" class="product-image">
 
       <h3 class="product-title">Dracula</h3>
-      <p class="product-description">Kleine description</p>
+      <p class="product-description">Genre: Horror</p>
 
       <div class="product-body">
         <a href="info/draculaInfo.php">
@@ -177,7 +209,7 @@ searchInput.addEventListener("keydown", (event) => {
       <img src="images/theDaVinciCode.jpg" class="product-image">
 
       <h3 class="product-title">The Da Vinci code</h3>
-      <p class="product-description">Kleine description</p>
+      <p class="product-description">Genre: Crime</p>
 
       <div class="product-body">
         <a href="info/theDaVinciCodeInfo.php">
@@ -190,7 +222,7 @@ searchInput.addEventListener("keydown", (event) => {
       <img src="images/theFaultInOurStars.jpg" class="product-image">
 
       <h3 class="product-title">The fault in our stars</h3>
-      <p class="product-description">Kleine description</p>
+      <p class="product-description">Genre: Romance</p>
 
       <div class="product-body">
         <a href="info/theFaultinourStarsInfo.php">
@@ -203,7 +235,7 @@ searchInput.addEventListener("keydown", (event) => {
       <img src="images/deGriezelbus.jpg" class="product-image">
 
       <h3 class="product-title">De Griezelbus</h3>
-      <p class="product-description">Kleine description</p>
+      <p class="product-description">Genre: Horror</p>
 
       <div class="product-body">
         <a href="info/deGriezelBusInfo.php">
@@ -216,7 +248,7 @@ searchInput.addEventListener("keydown", (event) => {
       <img src="images/hetGoudenEi.jpg" class="product-image">
 
       <h3 class="product-title">Het Gouden ei</h3>
-      <p class="product-description">Kleine description</p>
+      <p class="product-description">Genre: Crime</p>
 
       <div class="product-body">
         <a href="info/hetGoudenEiInfo.php">
@@ -229,7 +261,7 @@ searchInput.addEventListener("keydown", (event) => {
       <img src="images/harryPotter.jpg" class="product-image">
 
       <h3 class="product-title">Harry Potter</h3>
-      <p class="product-description">Kleine description</p>
+      <p class="product-description">Genre: Fantasy</p>
 
       <div class="product-body">
         <a href="info/harryPotterInfo.php">
@@ -242,7 +274,7 @@ searchInput.addEventListener("keydown", (event) => {
       <img src="images/deHobbit.jpg" class="product-image">
 
       <h3 class="product-title">De Hobbit</h3>
-      <p class="product-description">Kleine description</p>
+      <p class="product-description">Genre: Fantasy</p>
 
       <div class="product-body">
         <a href="info/deHobbitInfo.php">
@@ -255,7 +287,7 @@ searchInput.addEventListener("keydown", (event) => {
       <img src="images/theHungerGames.jpg" class="product-image">
 
       <h3 class="product-title">The Hunger games</h3>
-      <p class="product-description">Kleine description</p>
+      <p class="product-description">Genre: Dystophia</p>
 
     <div class="product-body">
       <a href="info/theHungerGamesInfo.php">
@@ -268,7 +300,7 @@ searchInput.addEventListener("keydown", (event) => {
       <img src="images/itBook.jpg" class="product-image">
 
       <h3 class="product-title">IT</h3>
-      <p class="product-description">Kleine description</p>
+      <p class="product-description">Genre: Horror</p>
 
       <div class="product-body">
         <a href="info/itInfo.php">
@@ -281,7 +313,7 @@ searchInput.addEventListener("keydown", (event) => {
       <img src="images/theLordOfTheRings.jpg" class="product-image">
 
       <h3 class="product-title">The Lord of the Rings</h3>
-      <p class="product-description">Kleine description</p>
+      <p class="product-description">Genre: Fantasy</p>
 
       <div class="product-body">
         <a href="info/theLordOTRingsInfo.php">
@@ -294,7 +326,7 @@ searchInput.addEventListener("keydown", (event) => {
       <img src="images/theMazeRunner.jpg" class="product-image">
 
       <h3 class="product-title">The Maze Runner</h3>
-      <p class="product-description">Kleine description</p>
+      <p class="product-description">Genre: Dystophia</p>
 
       <div class="product-body">
         <a href="info/theMazeRunnerInfo.php">
@@ -307,10 +339,10 @@ searchInput.addEventListener("keydown", (event) => {
       <img src="images/kruistochInSpijkerbroek.jpg" class="product-image">
 
       <h3 class="product-title">Kruistocht in Spijkerbroek</h3>
-      <p class="product-description">Kleine description</p>
+      <p class="product-description">Genre: History</p>
 
       <div class="product-body">
-        <a href="info/kruistochtInSpijkerbroekInfo.php">
+        <a href="info/kruistochtInSpijkerboekInfo.php">
         <button class="info-btn">Meer informatie</button>
         </a>
       </div>
@@ -320,7 +352,7 @@ searchInput.addEventListener("keydown", (event) => {
       <img src="images/mobyDick.jpg" class="product-image">
 
       <h3 class="product-title">Moby Dick</h3>
-      <p class="product-description">Kleine description</p>
+      <p class="product-description">Genre: Adventure</p>
 
       <div class="product-body">
         <a href="info/mobyDickInfo.php">
@@ -333,7 +365,7 @@ searchInput.addEventListener("keydown", (event) => {
       <img src="images/prideAndPrejudice.jpg" class="product-image">
 
       <h3 class="product-title">Pride and Prejudice</h3>
-      <p class="product-description">Kleine description</p>
+      <p class="product-description">Genre: Romance</p>
 
       <div class="product-body">
         <a href="info/prideAndPrejudiceInfo.php">
@@ -346,7 +378,7 @@ searchInput.addEventListener("keydown", (event) => {
       <img src="images/percyJackson.jpg" class="product-image">
 
       <h3 class="product-title">Percy Jackson</h3>
-      <p class="product-description">Kleine description</p>
+      <p class="product-description">Genre: Fantasy</p>
 
       <div class="product-body">
         <a href="info/percyJacksonInfo.php">
@@ -359,7 +391,7 @@ searchInput.addEventListener("keydown", (event) => {
       <img src="images/robinsonCrusoe.jpg" class="product-image">
 
       <h3 class="product-title">Robinson Crusoe</h3>
-      <p class="product-description">Kleine description</p>
+      <p class="product-description">Genre: Adventure</p>
 
       <div class="product-body">
         <a href="info/robinsonCrusoeInfo.php">
@@ -372,7 +404,7 @@ searchInput.addEventListener("keydown", (event) => {
       <img src="images/sherlockHolmes.jpg" class="product-image">
 
       <h3 class="product-title">Sherlock Holmes</h3>
-      <p class="product-description">Kleine description</p>
+      <p class="product-description">Genre: Crime</p>
 
       <div class="product-body">
         <a href="info/sherlockHolmesInfo.php">
@@ -385,7 +417,7 @@ searchInput.addEventListener("keydown", (event) => {
       <img src="images/theShining.jpg" class="product-image">
 
       <h3 class="product-title">The Shining</h3>
-      <p class="product-description">Kleine description</p>
+      <p class="product-description">Genre: Horror</p>
 
       <div class="product-body">
         <a href="info/theShiningInfo.php">
@@ -398,7 +430,7 @@ searchInput.addEventListener("keydown", (event) => {
       <img src="images/twilight.jpg" class="product-image">
 
       <h3 class="product-title">Twilight</h3>
-      <p class="product-description">Kleine description</p>
+      <p class="product-description">Genre: Romance</p>
 
       <div class="product-body">
         <a href="info/twilightInfo.php">
@@ -411,7 +443,7 @@ searchInput.addEventListener("keydown", (event) => {
       <img src="images/1984Book.jpg" class="product-image">
 
       <h3 class="product-title">1984</h3>
-      <p class="product-description">Kleine description</p>
+      <p class="product-description">Genre: Dystophia</p>
 
       <div class="product-body">
         <a href="info/1984Info.php">

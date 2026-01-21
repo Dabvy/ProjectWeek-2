@@ -45,5 +45,6 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 </form>
 <p><?= $message ?></p>
 <a href="login.php">Login</a>
+
 </body>
 </html>
