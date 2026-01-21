@@ -274,9 +274,8 @@ footer {
 }
 
 .column {
-    width: 35%;
+    width: 55%;
     padding: 10px 10px 20px;
-    box-shadow: 0 0 10px #0b0a2a;
     margin: 0 auto 25px auto;
     border-radius: 10px;
     flex: 0 0 35%;
