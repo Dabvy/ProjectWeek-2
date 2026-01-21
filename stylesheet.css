@@ -126,6 +126,7 @@ button:hover {
 .openTime-container {
     padding: 40px 60px;
     max-width: 600px;
+    white-space: pre-line;
 }
 
 #openTime {
@@ -273,9 +274,8 @@ footer {
 }
 
 .column {
-    width: 35%;
+    width: 55%;
     padding: 10px 10px 20px;
-    box-shadow: 0 0 10px #0b0a2a;
     margin: 0 auto 25px auto;
     border-radius: 10px;
     flex: 0 0 35%;
@@ -300,6 +300,7 @@ footer {
     background: #f28c38;
     text-transform: uppercase;
     margin: 5px;
+    color: black;
 }
 
 .row {
@@ -314,4 +315,32 @@ footer {
     height: 1px;
     background-color: #87A1BD;
     margin: 0 auto;
+}
+
+#searchblock {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#search {
+    text-align: center;
+}
+
+#results {
+    margin-right: 5%;
+}
+
+.search-form {
+    width: 350px;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 2px solid #f28c38;
+    border-radius: 6px;
+    font-size: 16px;
+    background-color: #1e293b;
+    /* dark slate background */
+    color: #f4f4f4;
+    /* light text for contrast */
 }

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <title>Productpagina</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #0b0a2a;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav {
+    padding: 20px 60px;
+    }
+
+    .nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    }
+
+    .logo {
+    width: 42px;
+    height: 42px;
+}
+
+    .container {
+      max-width: 900px;
+      margin: 50px auto;
+      background: #0f1038;
+      padding: 30px;
+      display: flex;
+      gap: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      position: relative;
+    }
+
+    .product-image img {
+      width: 350px;
+      border-radius: 10px;
+    }
+
+    .product-info h1 {
+      margin-top: 0;
+      font-size: 28px;
+    }
+
+    .description {
+      line-height: 1.6;
+      margin-bottom: 25px;
+      color: white;
+    }
+
+    button {
+      background: #f28c38;
+      color: black;
+      border: none;
+      padding: 15px 25px;
+      font-size: 16px;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    button:hover {
+      background: #0b0a2a;
+    }
+
+    h1{
+        color:#f28c38;
+    }
+
+    #header {
+    font-size: 68px;
+    font-weight: bolder;
+    color: #f28c38;
+    margin-bottom: 16px;
+    letter-spacing: 0.5px;
+    }
+
+    .text-container {
+    padding: 40px 60px 0px;
+    max-width: 800px;
+    margin-bottom: 100px;
+    }
+
+    .availability {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background: #f28c38;
+    color: black;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+
+  .rating {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 1.1rem;
+  color: #f28c38;
+}
+  </style>
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <a href="../main.php"><img src="../images/logoBIB.png" alt="logo" class="logo"></a>
+            <ul id="nav-links">
+            </ul>
+        </div>
+    </nav>
+
+    <div class="text-container">
+        <h1 id="header">Bibliotheek Forum</h1>
+    </div>
+
+  <div class="container">
+    <div class="product-image">
+        <img src="../images/1984Book.jpg" width="350px" height="500px">
+    </div>
+
+    <div class="product-info">
+      <h1>1984</h1>
+      <p class="description">
+    1984 van George Orwell is een dystopische roman over een totalitaire staat waarin alles en iedereen voortdurend wordt gecontroleerd door Big Brother. 
+    De hoofdpersoon, Winston Smith, werkt bij het Ministerie van Waarheid, 
+    waar hij het verleden vervalst om het regime gelijk te geven. 
+    Hij begint te twijfelen aan het systeem en wordt verliefd op Julia, 
+    met wie hij in het geheim in opstand komt tegen de partij. 
+    Uiteindelijk worden ze verraden en zwaar gemarteld, 
+    totdat Winston volledig wordt gebroken en het regime accepteert. 
+    Het boek waarschuwt voor de gevaren van extreme macht, 
+    propaganda en het verlies van vrijheid en individualiteit.
+    </p>
+    </div>
+    <div class="rating">
+          ★★★★☆ <span style="color: #f28c38; font-size: 0.9rem;">(4.4 / 5)</span>
+      </div>
+        <div class="availability">
+    Niet Beschikbaar
+  </div>
+</div>
+
+</body>
+</html>
