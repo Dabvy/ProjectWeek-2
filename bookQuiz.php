@@ -29,8 +29,8 @@
     </div>
 
     <div class="buttons-container">
-        <a class="readMore-container" href="main.html">LEES MEER</a>
-        <a class="boeken-container" href="books.html">BOEKEN</a>
+        <a class="readMore-container" href="main.php">LEES MEER</a>
+        <a class="boeken-container" href="books.php">BOEKEN</a>
     </div>
 
     <div>
