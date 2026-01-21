@@ -14,7 +14,7 @@
 <body>
     <nav>
         <div class="nav-container">
-            <a href="main.php"><img src="images/logoBIB.png" alt="logo" class="logo"></a>
+            <a href="main.html"><img src="images/logoBIB.png" alt="logo" class="logo"></a>
             <ul id="nav-links">
             </ul>
         </div>
@@ -29,8 +29,8 @@
     </div>
 
     <div class="buttons-container">
-        <a class="readMore-container" href="main.php">LEES MEER</a>
-        <a class="boeken-container" href="books.php">BOEKEN</a>
+        <a class="readMore-container" href="main.html">LEES MEER</a>
+        <a class="boeken-container" href="books.html">BOEKEN</a>
     </div>
 
     <div>
