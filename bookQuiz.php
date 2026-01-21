@@ -14,7 +14,7 @@
 <body>
     <nav>
         <div class="nav-container">
-            <a href="main.html"><img src="images/logoBIB.png" alt="logo" class="logo"></a>
+            <a href="main.php"><img src="images/logoBIB.png" alt="logo" class="logo"></a>
             <ul id="nav-links">
             </ul>
         </div>
