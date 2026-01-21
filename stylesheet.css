@@ -330,3 +330,16 @@ footer {
 #results{
     margin-right: 5%;
 }
+
+.search-form{
+    width: 350px;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 2px solid #f28c38;
+    border-radius: 6px;
+    font-size: 16px;
+    background-color: #1e293b;
+    /* dark slate background */
+    color: #f4f4f4;
+    /* light text for contrast */
+}

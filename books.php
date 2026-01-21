@@ -14,11 +14,18 @@
   </head>
 <body class="min-h-screen bg-gray-100 p-6">
 
-<div class="flex justify-end">
-<input id="searchInput" type="text" placeholder="Search a book and press Enter..."
-class="w-72 px-4 py-2 border rounded-xl shadow-sm focus:outline-none focus:ring"
-/>
-</div>
+    <nav>
+        <div class="nav-container">
+            <a href="main.php"><img src="images/logoBIB.png" alt="logo" class="logo"></a>
+            <ul id="nav-links">
+            </ul>
+            <ul id="results"></ul>
+            <input class="search-form" type="text" placeholder="Search a book and press Enter..."
+            class="w-72 px-4 py-2 border rounded-xl shadow-sm focus:outline-none focus:ring"/>
+          </div>
+        </div>
+    </nav>
+
 
 
 <script>
@@ -50,7 +57,7 @@ const bookPages = {
   "kruistocht in spijkerbroek": "info/kruistochtInSpijkerbroekInfo.php"
 };
 
-const searchInput = document.getElementById("searchInput");
+const searchInput = document.querySelector(".search-form");
 
 // 2 strings: A= bornstring. B= Doelstring
 function levenshtein(a, b) {
@@ -102,16 +109,6 @@ searchInput.addEventListener("keydown", (event) => {
   }
 });
 </script>
-
-    <nav>
-        <div class="nav-container">
-            <a href="main.php"><img src="images/logoBIB.png" alt="logo" class="logo"></a>
-            <ul id="nav-links">
-            </ul>
-            <ul id="results"></ul>
-          </div>
-        </div>
-    </nav>
 
     <div class="text-container">
         <h1 id="header">Bibliotheek Forum</h1>
